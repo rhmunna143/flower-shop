@@ -1,0 +1,56 @@
+/* Universal css */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+/* Shared css */
+
+.btn-primary {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Banner section */
+
+.banner {
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px 50px 100px;
+    padding-top: 50px;
+}
+
+.banner h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px;
+}
