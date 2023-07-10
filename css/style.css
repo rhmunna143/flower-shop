@@ -117,6 +117,10 @@
     line-height: 35px;
 }
 
+.service-itm {
+    text-align: center;
+}
+
 /* .service-container {
     height: 320px;
     width: 1200px;
@@ -220,4 +224,42 @@ span {
 .gallery-itm > img {
     width: 250px;
     height: 300px;
+}
+
+/* Subscribe section */
+
+.subscribe {
+    margin: 100px 0px 100px 0px;
+}
+
+.subscribe-container {
+    background-image: url("../images/Rectangle\ 9.png");
+    width: 1060px;
+    height: 350px;
+    margin-left: 140px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-desk h4 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.subscribe-desk p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
