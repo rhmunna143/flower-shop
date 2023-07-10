@@ -104,3 +104,36 @@
 .text {
     margin-top: 20px;
 }
+
+/* Service section */
+
+.service-itm p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* .service-container {
+    height: 320px;
+    width: 1200px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+} */
+
+.service-itms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 320px;
+    width: 1200px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
